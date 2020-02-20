@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/searchMovies"
+        android:icon="@drawable/ic_search_white"
+        android:title="@string/search_movies"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView"/>
+
+    <item
+        android:id="@+id/searchTVs"
+        android:icon="@drawable/ic_search_white"
+        android:title="@string/search_tvshow"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

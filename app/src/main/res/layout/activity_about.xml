@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AboutActivity">
+
+    <ScrollView
+        android:id="@+id/scv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:text="@string/app_name"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textColor="#696969"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txv1"
+                android:text="@string/versionApp"
+                android:textColor="#696969"
+                android:textAlignment="center"
+                android:layout_marginTop="78dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txv2"
+                android:layout_below="@id/txv1"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_marginTop="50dp"
+                android:text="@string/cp2019"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:id="@+id/view1"
+                android:background="#E6E6E6"
+                android:layout_below="@+id/txv2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <Button
+                android:id="@+id/btn_privacypolicy"
+                android:text="@string/privacy_policy"
+                android:textColor="#696969"
+                android:textAllCaps="false"
+                android:theme="@style/buttonstyle3"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_below="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

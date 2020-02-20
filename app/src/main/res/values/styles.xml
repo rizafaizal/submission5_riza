@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="swtchNotif" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorSwitchThumbNormal">@android:color/darker_gray</item>
+        <item name="android:colorForeground">@color/colorPrimary</item>
+    </style>
+
+    <style name="SplashScreenStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splashlogo</item>
+    </style>
+
+    <style name="SplassScreenCustom" parent="Theme.AppCompat.NoActionBar"/>
+
+    <!-- untuk button styles-->
+    <style name="buttonstyle3" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorBackground</item>
+    </style>
+
+</resources>
